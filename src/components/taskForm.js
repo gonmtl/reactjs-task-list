@@ -27,14 +27,14 @@ export default class TaskForm extends Component {
                 <input 
                     type="text"
                     name="title" 
-                    placeholder="Escribe la tarea" 
+                    placeholder="Task Name" 
                     onChange={this.onTipping} 
                     value={this.state.title} />
                 <br />
 
                 <textarea 
                     name="description"
-                    placeholder="Descripción" 
+                    placeholder="Task Description" 
                     onChange={this.onTipping} 
                     value={this.state.description} />
                 <br />
